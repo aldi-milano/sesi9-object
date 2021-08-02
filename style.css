@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+    
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+#border {
+    border-style: solid;
+    margin: 5px;
+    border-width: thin;
+    width: 20%;
+    align-items: center;
+}
+
+.center {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
